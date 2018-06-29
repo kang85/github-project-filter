@@ -13,9 +13,9 @@
     composer: 'https://packagist.org/packages/'
   };
 
-  start ();
+  addFilters ();
 
-  function start () {
+  function addFilters () {
     const members = [ 'kang85', 'ksh-code', 'kimgenius', 'edencha', 'hosysy', 'wileyday', 'all' ]
     const nicknames = {
       'kang85': 'Billy',
